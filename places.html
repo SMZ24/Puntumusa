@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Place we have Visited</title>
+        <style>
+            img:hover{
+                margin-left: 1px;
+                margin-top: 1px;
+                box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15); 
+                cursor: pointer; 
+            }
+            .PlacementBox{
+                display: grid;
+                grid-template-rows:1fr 1fr;
+                height: 600px;
+                width: 600px;
+                row-gap: 5px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .FirstHalf{
+                display: grid;
+                grid-template-columns: 1fr 2fr;
+                column-gap: 10px;
+            }
+            .SecondHalf{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 5px;
+            }
+            .SecondHalfInner{
+                display: grid;
+                grid-template-rows:200px 200px ;
+                row-gap: 5px;
+            }
+            .images{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.15);
+            }
+            .backimg1{
+                background-image: url('gif/back1.gif'),  url('gif/back2.gif');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-position-x: right, left;
+        background-attachment: fixed;
+        background-size: 600px, 500px;
+            }
+            .backimg2{
+                background-image: url('gif/babe3.jpg');
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-position-x: left;
+        background-attachment: fixed;
+        background-size: 300px;
+            }
+        </style>
+    </head>
+    <body style="background-color:  #f8f2ee;" class="backimg1">
+        <div class="PlacementBox">
+            <div  class="FirstHalf">
+                <div>
+                    <img class="images" src="placepic/babe.jpg" alt="">
+                </div>
+                <div style="
+                margin-bottom: 10px;">
+                    <img style="object-fit: cover;" class="images" src="placepic/basantapur_2.jpg" alt="">
+                </div>
+            </div>
+
+            <div  class="SecondHalf">
+                <div class="SecondHalfInner">
+                    <div >
+                        <img class="images" src="placepic/babe2.jpg" alt="">
+                    </div>
+                    <div >
+                        <img class="images" src="placepic/babe3.jpg" alt="">
+                    </div>
+                </div>
+                <div >
+                    <img class="images" src="placepic/babe4.jpg" alt="">
+                </div>
+                <div class="SecondHalfInner">
+                    <div >
+                        <img class="images" src="placepic/babe5.jpg" alt=""></div>
+                    <div >
+                        <img class="images" src="placepic/babe6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div style="padding-top: 300px;
+                display: grid;
+                grid-template-rows:1fr 1fr;
+                height: 600px;
+                width: 600px;
+                row-gap: 5px;
+                margin-left: auto;
+                margin-right: auto;
+        " >
+            <div  style="
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            column-gap: 10px;
+            ">
+                <div >
+                    <img  class="images" src="placepic/basantapur_2.jpg" alt="">
+                    
+                </div>
+                <div style="margin-bottom: 10px;">
+                     <img class="images" src="placepic/babe.jpg" alt="">
+                </div>
+            </div>
+
+            <div  style="
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            column-gap: 5px;
+            ">
+                <div >
+                    <img style="
+                        width: 400px;
+                        height: 390px;
+                        object-fit: cover;
+                        margin-top: 15px;
+                        box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.15);
+                    " src="placepic/basantapur_2.jpg" alt="">
+                </div>
+                <div class="SecondHalfInner">
+                    <div >
+                        <img class="images" src="placepic/babe5.jpg" alt=""></div>
+                    <div >
+                        <img class="images" src="placepic/babe6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="padding-top: 300px;
+        display: grid;
+        grid-template-rows:1fr 1fr;
+        height: 600px;
+        width: 600px;
+        row-gap: 5px;
+        margin-left: auto;
+        margin-right: auto;
+" >
+    <div  style="
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    ">
+        <div class="SecondHalfInner">
+            <div >
+                <img class="images" src="placepic/babe5.jpg" alt=""></div>
+            <div >
+                <img class="images" src="placepic/babe6.jpg" alt="">
+            </div>
+        </div>
+        <div >
+            <img  class="images" src="placepic/basantapur_2.jpg" alt="">
+            
+        </div>
+        <div >
+             <img class="images" src="placepic/babe.jpg" alt="">
+        </div>
+        
+    </div>
+
+    <div  style="
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 5px;
+    ">
+        <div >
+            <img style="
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                
+                box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.15);
+            " src="placepic/basantapur_2.jpg" alt="">
+        </div>
+        <div class="SecondHalfInner">
+            <div >
+                <img class="images" src="placepic/babe5.jpg" alt=""></div>
+            <div >
+                <img class="images" src="placepic/babe6.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+        <div style="padding-top: 350px;" class="PlacementBox">
+            <div  class="FirstHalf">
+                <div >
+                    <img class="images" src="placepic/babe.jpg" alt="">
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <img style="object-fit: cover;" class="images" src="placepic/basantapur_2.jpg" alt="">
+                </div>
+            </div>
+
+            <div  style="
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 5px;
+            ">
+                <div class="SecondHalfInner">
+                    <div >
+                        <img class="images" src="placepic/babe2.jpg" alt="">
+                    </div>
+                    <div >
+                        <img class="images" src="placepic/babe3.jpg" alt="">
+                    </div>
+                </div>
+                <div >
+                    <img class="images" src="placepic/babe4.jpg" alt="">
+                </div>
+                <div >
+                    <img class="images" src="placepic/babe4.jpg" alt="">
+            </div>
+        </div>
+        </div>
+
+
+        
+        <div style="padding-top: 300px;
+        
+        display: grid;
+        grid-template-rows:1fr 1fr;
+        height: 600px;
+        width: 600px;
+        row-gap: 5px;
+        margin-left: auto;
+        margin-right: auto;
+" >
+   
+
+    <div  style="
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 5px;
+    ">
+        <div >
+            <img style="
+                width: 400px;
+                height: 395px;
+                object-fit: cover;
+                
+                box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.15);
+            " src="placepic/basantapur_2.jpg" alt="">
+        </div>
+        <div class="SecondHalfInner">
+            <div >
+                <img class="images" src="placepic/babe5.jpg" alt=""></div>
+            <div >
+                <img class="images" src="placepic/babe6.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div  style="
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    ">
+        <div class="SecondHalfInner">
+            <div >
+                <img class="images" src="placepic/babe5.jpg" alt=""></div>
+            <div >
+                <img class="images" src="placepic/babe6.jpg" alt="">
+            </div>
+        </div>
+        <div >
+            <img  class="images" src="placepic/basantapur_2.jpg" alt="">
+            
+        </div>
+        <div >
+             <img class="images" src="placepic/babe.jpg" alt="">
+        </div>
+        
+    </div>
+</div>
+       
+    </body>
+</html>

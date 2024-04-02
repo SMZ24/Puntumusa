@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title> 10 Year Anniversary</title>
+    </head>
+    <style>
+        
+       
+        .Anniversary-Button{
+          
+            width: 950px;
+            height: 150px;
+            margin-left: 340px;
+            background-color: #f8f2ee;
+            border: none;
+            font-family: cursive;
+            color: black;
+            text-align: center;
+            font-size: 50px;
+            text-shadow: 2px 2px grey;
+            -webkit-animation: slide-in-fwd-center 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	          animation: slide-in-fwd-center 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            
+        }
+        .Anniversary-Button:hover{
+          cursor: pointer;
+        }
+        .Anniversary-Button:active{
+          margin-left: 345px;
+          margin-top: 5px;
+        }
+        @-webkit-keyframes slide-in-fwd-center {
+  0% {
+    -webkit-transform: translateZ(-1400px);
+            transform: translateZ(-1400px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-fwd-center {
+  0% {
+    -webkit-transform: translateZ(-1400px);
+            transform: translateZ(-1400px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    opacity: 1;
+  }
+  
+          
+}
+.preview-grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr;       
+                 
+                height: 800px; 
+                width: 1680px;
+                    
+}
+.profile-preview-grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr ;
+                width: 200px;
+                column-gap: 10px;
+                margin-left: 200px;
+                                
+               
+                
+}
+.Display-Preview{  
+                width: 200px;
+                height: 300px;
+
+            }
+            .Photo-Preview{
+                height: 300px;
+                width: 200px;
+                object-fit: cover;
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+                margin-bottom: 5px;
+                
+            }
+            .Photo-Preview:hover{
+               
+                margin-left: 1px;
+                margin-top: 1px;
+                box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15); 
+                cursor: pointer; 
+
+            }
+            .header{
+              display: flex;
+              flex-direction: row;
+              margin-bottom: 30px;
+             height: 70px;
+             border-bottom: 2px;
+             border-left: 0px;
+             border-right: 0px;
+             border-top: 0px;
+             border-color: black;
+             border-style: solid;
+             justify-content: space-between;
+             align-items: emd;
+             
+            }
+            .images-edit{
+              height: 100px;
+              width: 100px;
+              object-fit: contain;
+            }
+            .anniversary-placement{
+              margin-top: 100px;
+              display: grid;
+              grid-template-rows: 100px 1fr;
+              
+            }
+            .Unclicable-Window{
+              display: grid;
+              grid-template-rows: 600px  50px 350px;
+              height: 1000px;
+
+            }
+            .Unclicable-Gif{
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 70px;
+              width: 450px;
+              height: 450px;
+              object-fit: contain;
+              
+              
+            }
+            .Unclicable-button-Layout{
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              margin-top: 50px;
+              margin-left: 5px;
+            }
+            .Unclicable-button-Design{
+             
+              font-size: 20px;
+              background-color: #f8f2ee;
+              font-family: cursive;
+              border-color: red;
+              color: lightsalmon;
+              border-radius: 2px;
+              cursor: pointer;
+              height: 36px;
+              width: 102px;
+              border-width: 1.2px;
+              border-style: solid;
+             
+              transition: background-color .3s, color .3s, order-color .3s;
+              vertical-align: top;
+              box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+              position: absolute;
+
+            }
+            .Unclicable-button-Design:hover{
+              background-color:lightsalmon;
+              color: #f8f2ee;
+              border-color: lightsalmon;
+            }
+            .Unclicable-button-Design:active{
+              opacity: 0.7;
+            }
+
+            .confession{
+              font-family: cursive;
+              font-size: 25px;
+              text-align: center;
+            }
+
+            .links{
+              margin-top: 50px;
+              height: 400px;
+              
+              display: grid;
+              grid-template-columns: 1fr 1fr 1fr;
+             
+
+            }
+            .linkPhotos{
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+              -ms-transform: skewY(4deg);
+              -webkit-transform: skewY(20deg);
+              transform: skewY(4deg);
+            }
+          
+            .Nezu1 {
+                clip-path: polygon(0 0, 70% 0, 100% 100%, 0 100%);
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                position: absolute;
+               width: 690px;
+               height: 400px;
+               object-position: right;
+               
+
+            }
+          
+            .Nezu2 {
+                clip-path: polygon(0 0, 70% 0, 100% 100%, 30% 100%);
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                position: absolute;
+               width: 690px;
+               height: 400px;
+               
+            }
+            .Nezu3 {
+                
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                position: absolute;
+               width: 690px;
+               height: 400px;
+            }
+            .Nezu1:hover{
+               
+               margin-left: 1px;
+               margin-top: 1px;
+               box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15); 
+               cursor: pointer; 
+           }
+           .Nezu2:hover{
+               
+               margin-left: 1px;
+               margin-top: 1px;
+               box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15); 
+               cursor: pointer; 
+           }
+           .Nezu3:hover{
+               
+               margin-left: 1px;
+               margin-top: 1px;
+               box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15); 
+               cursor: pointer; 
+           }
+       
+
+            .place{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                height: 400px;
+                width: 1470px;
+                padding-top: 100px;
+            }
+       
+        
+    </style>
+    <script src="unclicable.js"></script>
+    <script src="Image changer YES.js"></script>
+    
+      
+    
+    <body style="background-color: #f8f2ee;
+    padding-bottom: 30px;">
+    
+      <div class="header">
+        <div style="width: 100px;"> 
+        <img style="margin-top: 10px;" class="images-edit" src="gif/panda-1.png" alt="">
+        </div>
+
+        <div style="width: 500px;"> 
+        <img class="images-edit" src="gif/pandas-4-crop.png" alt="" style="height: 73px;
+        width: 500px;
+        object-fit: contain">  
+        </div>
+        
+        <div  style="width: 100px;"> 
+          <img style="height: 70px;
+          width: 70;" class="images-edit" src="gif/hamster-1-crop.png" alt="">  
+        </div>
+    </div>
+      
+        <div class="anniversary-placement">
+          <div >
+            <button id="button" class="Anniversary-Button" role="button">❤️Happy 1st YEAR ANNIVERSARY❤️❤️ BABE!!!!!!❤️</button>
+            <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+                <script src="script.js"></script>
+          </div>
+        
+          <div>
+              <img style="margin-left: 580px;
+              margin-top: 100px;" src="gif/bear-panda-ezgif.com-crop.gif" alt="">
+          </div>
+        </div>
+              
+        <div class="Unclicable-Window">
+          <div class="Unclicable-Gif">
+            <img id="YesButton" class="Unclicable-Gif" src="gif/mochi-so-cute.gif" alt="">
+          </div>
+          <div><p class="confession" id="yes">&#128563Babe do you still love me?🫣</p></div>
+          <div class="Unclicable-button-Layout">
+            
+            
+            <div>
+              
+              <button  onclick="GetImageYes('gif/kawaii-hugs.gif')" class="Unclicable-button-Design" style="margin-left: 690px;">Yes</button>
+             
+            </div>
+            <div>
+              <button onclick="GetImageNO('gif/love-you.gif')" id="UnclicableButton" class="Unclicable-button-Design" style="margin-left: 40px;">No</button>
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+      <div class="preview-grid">  
+        <div >
+            <p class="confession" > babe u sanga kina boli ra ko k u know ki i dont like him and u talking with hims aasti na ko kura le i am still a bit inseure and u are now again talking with him,, I did said ki you to not to talk with him didnt i? But why are u again talking with him.. tyo pani pura gif haru pathayue ra. and why didnt he said anything about u not texting and replyina for a whole month.. Is there anything you are hiding from me??? if yeas then why did u hide it from me... yesto ta hundai na ki pahila chai dherai bolne ani feri 1 month aachanak replay na dekho ani feri kina replay na gare ko ignore kina gare ko kai na sodi normal conversation suru garne.. Babe are there anything that you are hiding??
+            </p>
+        </div>
+       
+        <div class="profile-preview-grid">
+
+        <div >
+          <div class="Display-Preview">
+            <div >
+              <img class="Photo-Preview" src="fav fav couple/layout/Snapchat-1138902802.jpg" alt="">
+            </div>
+            
+          </div>
+        </div>
+
+
+        <div >
+          <div class="Display-Preview" >
+            <div>
+              <img  class="Photo-Preview" src="fav fav couple/layout/0-02-03-2182da6f95bad14d3ac3f85a7cce9cc13c2262363c25df001b27e367232ded76_596c574de4260d19.jpg" alt="" style="height: 150px;">
+            </div>
+            <div>
+              <img class="Photo-Preview"  src="fav fav couple/layout/Snapchat-1300721396.jpg" alt="">
+            </div>
+            <div>
+              <img  class="Photo-Preview" src="fav fav couple/layout/Snapchat-2012939908.jpg" alt="" style="height: 150px;">
+            </div>
+          </div>
+      </div>
+
+      <div  >
+      <div class="Display-Preview">
+        <div>
+          <img class="Photo-Preview" src="placepic/babe.jpg" alt="">
+        </div>
+        <div>
+          <img class="Photo-Preview" src="fav fav couple/layout/Snapchat-149912502.jpg" alt="" style="height: 150px;">
+        </div>
+        <div>
+          <img class="Photo-Preview" src="fav fav couple/layout/Snapchat-725202996.jpg" alt="">
+        </div>
+      </div>
+      </div>
+
+      </div>
+      </div>
+      
+      
+      
+
+
+      <div  class="place">
+        <div>
+          <a href="Practice.html">
+            <img class="Nezu1" src="fav fav couple/slanted/Snapchat-1807155145.jpg" > <br>
+          </a>
+         
+        </div>
+        <div>
+          <a href="gallary Fav.html">
+            <img class="Nezu2" src="fav fav couple/slanted/Snapchat-2111376360.jpg" alt="">
+          </a>
+          
+        </div>
+        <div>
+          <a href="places.html">
+            <img class="Nezu3" src="fav fav couple/slanted/Snapchat-1345513066.jpg" alt="">
+          </a>
+           
+        </div>
+    </body>
+</html>
